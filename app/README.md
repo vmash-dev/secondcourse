@@ -1,0 +1,17 @@
+git config --global user.name "Axel F"
+git config --global user.email "Axel@gmail.com"
+
+git init
+git remote add origin ###git@github.com:vmash-dev/secondcourse.git###
+git pull origin main
+
+- uv init app
+- cd app
+- uv sync
+- uv add pytest
+- Ctrl-Alt-l
+- uv run -m pytest .
+- uv run -m pytest . -v
+- uv run -m pytest . -s
+- uv run -m pytest . -v -s
+- uv run -m pytest tests\test_model_bank_account_1.py::TestBankAccountATMMashine -v -s
