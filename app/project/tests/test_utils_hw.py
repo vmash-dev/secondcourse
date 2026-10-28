@@ -42,7 +42,7 @@ def test_calculate_discount_5():
 
 
 def test_is_even_1():
-    number = 4
+    number = 2
     expected = True
     actual = is_even(number)
     assert expected is actual
@@ -56,7 +56,7 @@ def test_is_even_2():
 
 
 def test_is_even_3():
-    number = -4
+    number = -2
     expected = True
     actual = is_even(number)
     assert expected is actual
@@ -85,7 +85,7 @@ def test_get_full_name_1():
 
 
 def test_get_full_name_2():
-    first_name = "Ант"
+    first_name = "Антоша"
     last_name = "Картошка"
     expected = f"{first_name} {last_name}"
     actual = get_full_name(first_name, last_name)
@@ -93,7 +93,7 @@ def test_get_full_name_2():
 
 
 def test_get_full_name_3():
-    first_name = "Антошкаскартошкой"
+    first_name = "Анатолій"
     last_name = "Картошка"
     expected = f"{first_name} {last_name}"
     actual = get_full_name(first_name, last_name)
